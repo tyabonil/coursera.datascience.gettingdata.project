@@ -1,0 +1,4 @@
+rawdata/
+*.zip
+.R*
+.DS*
