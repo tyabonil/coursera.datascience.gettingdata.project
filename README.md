@@ -43,6 +43,7 @@ Dot notation is used to seperate the following elements (camel case is used for 
 
 #### Time domain measurements of body, gravitational, and body jerk acceleration along each axis
 
+````
 time.BodyAcc.mean.X
 time.BodyAcc.mean.Y
 time.BodyAcc.mean.Z
@@ -59,7 +60,6 @@ time.GravityAcc.standardDeviation.X
 time.GravityAcc.standardDeviation.Y
 time.GravityAcc.standardDeviation.Z
 
-
 time.BodyAccJerk.mean.X
 time.BodyAccJerk.mean.Y
 time.BodyAccJerk.mean.Z
@@ -67,9 +67,10 @@ time.BodyAccJerk.mean.Z
 time.BodyAccJerk.standardDeviation.X
 time.BodyAccJerk.standardDeviation.Y
 time.BodyAccJerk.standardDeviation.Z
-
+````
 #### Time domain measurements of body and body jerk orientation along each axis
 
+````
 time.BodyGyro.mean.X
 time.BodyGyro.mean.Y
 time.BodyGyro.mean.Z
@@ -85,8 +86,11 @@ time.BodyGyroJerk.mean.Z
 time.BodyGyroJerk.standardDeviation.X
 time.BodyGyroJerk.standardDeviation.Y
 time.BodyGyroJerk.standardDeviation.Z
+````
 
 #### Time domain measurements of magnitude of body, gravity, and body jerk acceleration 
+
+````
 time.BodyAccMag.mean
 time.BodyAccMag.standardDeviation
 
@@ -95,17 +99,21 @@ time.GravityAccMag.standardDeviation
 
 time.BodyAccJerkMag.mean
 time.BodyAccJerkMag.standardDeviation
+````
 
 #### Time domain measurements of  magnitude of body orientation and body jerk orientation
 
+````
 time.BodyGyroMag.mean
 time.BodyGyroMag.standardDeviation
 
 time.BodyGyroJerkMag.mean
 time.BodyGyroJerkMag.standardDeviation
+````
 
 #### FFT Frequency domain measurements of body, gravitational, and body jerk acceleration along each axis
 
+````
 frequency.BodyAcc.mean.X
 frequency.BodyAcc.mean.Y
 frequency.BodyAcc.mean.Z
@@ -129,9 +137,11 @@ frequency.BodyAccJerk.standardDeviation.Z
 frequency.BodyAccJerk.meanFrequency.X
 frequency.BodyAccJerk.meanFrequency.Y
 frequency.BodyAccJerk.meanFrequency.Z
+````
 
 #### FFT Frequency domain measurements of body and body jerk orientation along each axis
 
+````
 frequency.BodyGyro.mean.X
 frequency.BodyGyro.mean.Y
 frequency.BodyGyro.mean.Z
@@ -143,9 +153,11 @@ frequency.BodyGyro.standardDeviation.Z
 frequency.BodyGyro.meanFrequency.X
 frequency.BodyGyro.meanFrequency.Y
 frequency.BodyGyro.meanFrequency.Z
+````
 
 #### FFT Frequency domain measurements of magnitude of body, gravity, and body jerk acceleration 
 
+````
 frequency.BodyAccMag.mean
 frequency.BodyAccMag.standardDeviation
 frequency.BodyAccMag.meanFrequency
@@ -153,9 +165,11 @@ frequency.BodyAccMag.meanFrequency
 frequency.BodyBodyAccJerkMag.mean
 frequency.BodyBodyAccJerkMag.standardDeviation
 frequency.BodyBodyAccJerkMag.meanFrequency
+````
 
 #### FFT Frequency domain measurements of  magnitude of body orientation and body jerk orientation
 
+````
 frequency.BodyBodyGyroMag.mean
 frequency.BodyBodyGyroMag.standardDeviation
 frequency.BodyBodyGyroMag.meanFrequency
@@ -163,3 +177,4 @@ frequency.BodyBodyGyroMag.meanFrequency
 frequency.BodyBodyGyroJerkMag.mean
 frequency.BodyBodyGyroJerkMag.standardDeviation
 frequency.BodyBodyGyroJerkMag.meanFrequency"
+````
